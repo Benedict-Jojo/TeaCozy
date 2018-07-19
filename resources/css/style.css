@@ -1,0 +1,158 @@
+
+body{
+	font-family:Helvetica;
+	font-size:22px;
+	color:seashell;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+
+}
+/*HEADER SECTION*/
+header{
+	display: flex;
+	justify-content: space-between;
+	height: 69px;
+	background-color: black;
+	border-bottom:1px solid seashell;
+	align-items: center;
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+
+header img{
+	margin-left: 10px;
+	height:50px;
+}
+
+nav{
+	width:350px;
+	margin-right:20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+a{
+	color:seashell;
+}
+
+/*CONTENT SECTION*/
+.content{
+	margin:0px 20px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 69px;
+	align-items: center;
+}
+
+/*MISSION SECTION*/
+
+.mission{
+	height:700px;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width:1200px;
+}
+
+.image-content{
+	background-color: black;
+	width: 1200px;
+	text-align: center;
+}
+
+/*FEATURED TEA SECTION*/
+
+.tea{
+	display: flex;
+	flex-direction: column;
+	width:1000px;
+}
+
+#featuredtea{
+	visibility: hidden;
+}
+
+.bottomblock{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.image img{
+	height: 200px;
+	width: 300px;
+}
+
+.image h4{
+	margin-top: 10px;
+}
+
+#imagebelow1{
+	margin-left: 180px;
+}
+
+#imagebelow2{
+	margin-right: 180px;
+}
+
+
+/*LOCATION SECTION*/
+
+.location{
+	height: 580px;
+	width: 1200px;
+	background-image: url("../images/locations.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.location h2{
+	margin-bottom: 15px;
+}
+
+.box{
+	display: flex;
+	justify-content: space-around;
+	width: 1000px;
+	margin-bottom: 90px;
+}
+
+.box div{
+	background-color: black;
+	width: 300px;
+}
+
+.box3{
+	opacity: 1;
+}
+
+/*FOOTER SECTION*/
+
+footer{
+	height:200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h2{
+	margin-top: 5px;
+}
+
+/*COPYRIGHT SECTION*/
+
+#copyright{
+	text-align: left;
+	margin-left: 20px;
+}
